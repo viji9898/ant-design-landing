@@ -83,7 +83,7 @@ export const Nav30DataSource = {
         name: 'item1',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://86tw8ezuqgu.typeform.com/to/zrcceJ7e',
           children: [
             {
               children: (
@@ -94,6 +94,7 @@ export const Nav30DataSource = {
               name: 'text',
             },
           ],
+          target: '_blank',
         },
       },
       {
