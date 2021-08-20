@@ -2,10 +2,24 @@
 /* eslint arrow-parens: 0 */
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
-import scrollScreen from 'rc-scroll-anim/lib/ScrollScreen';
-import Feature1 from './Feature1';
 
-import { Feature10DataSource } from './data.source';
+import Nav3 from './Nav3';
+import Banner0 from './Banner0';
+import Content4 from './Content4';
+import Feature1 from './Feature1';
+import Feature4 from './Feature4';
+import Content11 from './Content11';
+import Footer0 from './Footer0';
+
+import {
+  Nav30DataSource,
+  Banner00DataSource,
+  Content40DataSource,
+  Feature10DataSource,
+  Feature40DataSource,
+  Content110DataSource,
+  Footer00DataSource,
+} from './data.source';
 import './less/antMotionStyle.less';
 
 let isMobile;
@@ -25,10 +39,6 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    /* 如果不是 dva 2.0 请使用以下代码
-    // 实现整屏滚动
-    scrollScreen.init({ location: ['Feature1_0'] });
-    */
     // 适配手机屏幕;
     enquireScreen((b) => {
       this.setState({ isMobile: !!b });
@@ -41,8 +51,6 @@ export default class Home extends React.Component {
         this.setState({
           show: true,
         });
-        // 实现整屏滚动
-        scrollScreen.init({ location: ['Feature1_0'] });
       }, 500);
     }
     /* 如果不是 dva 2.0 请删除 end */
@@ -50,10 +58,46 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
+      <Nav3
+        id="Nav3_0"
+        key="Nav3_0"
+        dataSource={Nav30DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Banner0
+        id="Banner0_0"
+        key="Banner0_0"
+        dataSource={Banner00DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Content4
+        id="Content4_0"
+        key="Content4_0"
+        dataSource={Content40DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Feature1
         id="Feature1_0"
         key="Feature1_0"
         dataSource={Feature10DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Feature4
+        id="Feature4_0"
+        key="Feature4_0"
+        dataSource={Feature40DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Content11
+        id="Content11_0"
+        key="Content11_0"
+        dataSource={Content110DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Footer0
+        id="Footer0_0"
+        key="Footer0_0"
+        dataSource={Footer00DataSource}
         isMobile={this.state.isMobile}
       />,
     ];
