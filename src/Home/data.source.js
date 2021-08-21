@@ -1,11 +1,11 @@
 import React from 'react';
-export const Nav30DataSource = {
-  wrapper: { className: 'header3 home-page-wrapper kshqtxreuck-editor_css' },
-  page: { className: 'home-page kshqmqv5d2t-editor_css' },
+export const Nav31DataSource = {
+  wrapper: { className: 'header3 home-page-wrapper' },
+  page: { className: 'home-page' },
   logo: {
     className: 'header3-logo',
     children:
-      'https://mylaunchfreebiebucket.s3.eu-west-2.amazonaws.com/sideMainLogo.svg',
+      'https://gw.alipayobjects.com/zos/basement_prod/b30cdc2a-d91c-4c78-be9c-7c63b308d4b3.svg',
   },
   Menu: {
     className: 'header3-menu',
@@ -15,16 +15,7 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '#',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>Concept</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
+          children: [{ children: '导航一', name: 'text' }],
         },
         subItem: [
           {
@@ -84,11 +75,52 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '#',
+          children: [{ children: '导航二', name: 'text' }],
+        },
+      },
+      {
+        name: 'item2',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [{ children: '导航三', name: 'text' }],
+        },
+      },
+      {
+        name: 'item3',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [{ children: '导航四', name: 'text' }],
+        },
+      },
+    ],
+  },
+  mobileMenu: { className: 'header3-mobile-menu' },
+};
+export const Nav30DataSource = {
+  wrapper: { className: 'header3 home-page-wrapper kshqtxreuck-editor_css' },
+  page: { className: 'home-page kshqmqv5d2t-editor_css' },
+  logo: {
+    className: 'header3-logo',
+    children:
+      'https://mylaunchfreebiebucket.s3.eu-west-2.amazonaws.com/sideMainLogo.svg',
+  },
+  Menu: {
+    className: 'header3-menu',
+    children: [
+      {
+        name: 'item1',
+        className: 'header3-item',
+        children: {
+          href: '#Content4_0',
           children: [
             {
               children: (
                 <span>
-                  <p>Register</p>
+                  <span>
+                    <p>Concept</p>
+                  </span>
                 </span>
               ),
               name: 'text',
@@ -100,8 +132,26 @@ export const Nav30DataSource = {
         name: 'item3',
         className: 'header3-item',
         children: {
-          href:
-            'https://dev-datadf.eu.auth0.com/login?state=hKFo2SBiYjdWMWhHaFk1dGczSW90ZkxUMzd5Ynd2U0xiM3dsWKFupWxvZ2luo3RpZNkgQmJPdG04enM2QldmUWdSWHkxeFF0TzIyT21fRHNVNXOjY2lk2SBUcXl6OTBqem1CNTcxeFdGZE9oaHhTU0Vic3NLVGpwSg&client=Tqyz90jzmB571xWFdOhhxSSEbssKTjpJ&protocol=oauth2&scope=openid%20email%20profile&nonce=622868ffe55127867c3b92927a36534b&response_type=code&redirect_uri=https%3A%2F%2Fwww.dd.fitness%2Fauth0%2Fcallback',
+          href: 'https://86tw8ezuqgu.typeform.com/to/zrcceJ7e',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <p>Register</p>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
+        name: 'item~ksm0gcnoltc',
+        className: 'header3-item',
+        children: {
+          href: 'https://www.dd.fitness',
           children: [
             {
               children: (
@@ -138,6 +188,7 @@ export const Banner00DataSource = {
   button: {
     className: 'banner0-button ksk7qbm4ci9-editor_css',
     children: 'Learn More',
+    href: '#Feature1_0',
   },
 };
 export const Content40DataSource = {
@@ -170,7 +221,8 @@ export const Content40DataSource = {
   video: {
     className: 'content4-video',
     children: {
-      video: 'https://www.youtube.com/watch?v=lc_0nGePLv8',
+      video:
+        'https://mylaunchfreebiebucket.s3.eu-west-2.amazonaws.com/Coming+Soon.mp4',
       image: 'https://zos.alipayobjects.com/rmsportal/HZgzhugQZkqUwBVeNyfz.jpg',
     },
   },
@@ -196,11 +248,14 @@ export const Feature10DataSource = {
     className: 'content1-content',
     children: (
       <span>
-        <p>
-          A platform that brings together instructors from mobility, strenght,
-          mindfulness and nutrition. Content that is instructional and
-          educational. Goal of keeping the client consistent and accountable.
-        </p>
+        <span>
+          <p>
+            A platform that brings together instructors from mobility, strenght,
+            mindfulness and nutrition. Content that is instructional and
+            educational. Emphasis on keeping the users consistent and
+            accountable.
+          </p>
+        </span>
       </span>
     ),
   },
@@ -228,10 +283,12 @@ export const Feature20DataSource = {
     className: 'content2-content',
     children: (
       <span>
-        <p>
-          Pwoerful Algorithms and Machine Learning to personalise content and
-          keep users consistent &amp; accountable.
-        </p>
+        <span>
+          <p>
+            Powerful Algorithms and Machine Learning to personalise content and
+            keep users motivated.
+          </p>
+        </span>
       </span>
     ),
   },
@@ -307,7 +364,9 @@ export const Content110DataSource = {
         href: 'https://86tw8ezuqgu.typeform.com/to/zrcceJ7e',
         children: (
           <span>
-            <p>Register Interest</p>
+            <span>
+              <p>Join</p>
+            </span>
           </span>
         ),
         target: '',
