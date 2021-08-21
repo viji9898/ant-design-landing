@@ -5,7 +5,7 @@ export const Nav30DataSource = {
   logo: {
     className: 'header3-logo',
     children:
-      'https://gw.alipayobjects.com/zos/basement_prod/b30cdc2a-d91c-4c78-be9c-7c63b308d4b3.svg',
+      'https://mylaunchfreebiebucket.s3.eu-west-2.amazonaws.com/sideMainLogo.svg',
   },
   Menu: {
     className: 'header3-menu',
@@ -83,7 +83,7 @@ export const Nav30DataSource = {
         name: 'item1',
         className: 'header3-item',
         children: {
-          href: 'https://86tw8ezuqgu.typeform.com/to/zrcceJ7e',
+          href: '#',
           children: [
             {
               children: (
@@ -94,7 +94,6 @@ export const Nav30DataSource = {
               name: 'text',
             },
           ],
-          target: '_blank',
         },
       },
       {
@@ -116,27 +115,30 @@ export const Nav30DataSource = {
         },
       },
     ],
+    subItem: {},
   },
   mobileMenu: { className: 'header3-mobile-menu' },
 };
 export const Banner00DataSource = {
-  wrapper: { className: 'banner0 ksi2ifn8c6j-editor_css' },
+  wrapper: { className: 'banner0 ksk7ppvhmeu-editor_css' },
   textWrapper: { className: 'banner0-text-wrapper' },
   title: {
     className: 'banner0-title',
-    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+    children:
+      'https://mylaunchfreebiebucket.s3.eu-west-2.amazonaws.com/Artboard+2.svg',
   },
   content: {
-    className: 'banner0-content ksipy43nx2c-editor_css',
+    className: 'banner0-content kslw3er6udi-editor_css',
     children: (
       <span>
-        <span>
-          <p>Strenght - Mobility - Nutirtion - Mndfullness</p>
-        </span>
+        <p>Intelligent Fitness</p>
       </span>
     ),
   },
-  button: { className: 'banner0-button', children: 'Learn More' },
+  button: {
+    className: 'banner0-button ksk7qbm4ci9-editor_css',
+    children: 'Learn More',
+  },
 };
 export const Content40DataSource = {
   wrapper: { className: 'home-page-wrapper content4-wrapper' },
@@ -174,30 +176,16 @@ export const Content40DataSource = {
   },
 };
 export const Feature10DataSource = {
-  wrapper: {
-    className: 'home-page-wrapper content1-wrapper ksj38puiwjc-editor_css',
-  },
-  OverPack: {
-    className: 'home-page content1 ksj36ks3lw6-editor_css',
-    playScale: 0.3,
-  },
-  imgWrapper: {
-    className: 'content1-img ksj387jauik-editor_css',
-    md: 10,
-    xs: 24,
-  },
+  wrapper: { className: 'home-page-wrapper content1-wrapper' },
+  OverPack: { className: 'home-page content1', playScale: 0.3 },
+  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
   img: {
     children:
       'https://mylaunchfreebiebucket.s3.eu-west-2.amazonaws.com/thinkingMan.svg',
-    className: 'kshcsqkdq17-editor_css',
   },
-  textWrapper: {
-    className: 'content1-text ksj3gesxrbe-editor_css',
-    md: 14,
-    xs: 24,
-  },
+  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
   title: {
-    className: 'content1-title ksj3apbyrjm-editor_css',
+    className: 'content1-title',
     children: (
       <span>
         <p>THE PLATFORM</p>
@@ -205,7 +193,7 @@ export const Feature10DataSource = {
     ),
   },
   content: {
-    className: 'content1-content ksezawc5qvl-editor_css',
+    className: 'content1-content',
     children: (
       <span>
         <p>
@@ -217,141 +205,45 @@ export const Feature10DataSource = {
     ),
   },
 };
-export const Feature40DataSource = {
-  wrapper: {
-    className: 'home-page-wrapper content6-wrapper ksj3rq98dxu-editor_css',
-  },
-  OverPack: { className: 'home-page content6 kshcqoke08-editor_css' },
-  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <p>Key Features&nbsp;</p>
-          </span>
-        ),
-        className: 'title-h1',
-      },
-      {
-        name: 'content',
-        className: 'title-content',
-        children: (
-          <span>
-            <p>Powerful Algorithms</p>
-          </span>
-        ),
-      },
-    ],
-  },
+export const Feature20DataSource = {
+  wrapper: { className: 'home-page-wrapper content2-wrapper' },
+  OverPack: { className: 'home-page content2', playScale: 0.3 },
+  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
   img: {
     children:
       'https://mylaunchfreebiebucket.s3.eu-west-2.amazonaws.com/yogaPose.svg',
-    className: 'content6-img kshqwn65gws-editor_css',
-    xs: 24,
-    md: 14,
   },
-  block: {
-    children: [
-      {
-        name: 'block0',
-        img: {
-          children:
-            'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
-          className: 'content6-icon',
-        },
-        title: {
-          className: 'content6-title',
-          children: (
-            <span>
-              <p>AI</p>
-            </span>
-          ),
-        },
-        content: {
-          className: 'content6-content',
-          children: (
-            <span>
-              <p>
-                Using AI to put together routines for strenght, mobility ,
-                nutrition and mindfulness
-              </p>
-            </span>
-          ),
-        },
-      },
-      {
-        name: 'block1',
-        img: {
-          className: 'content6-icon',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
-        },
-        title: {
-          className: 'content6-title',
-          children: (
-            <span>
-              <p>Consistency &amp; Accountabilty&nbsp;</p>
-            </span>
-          ),
-        },
-        content: {
-          className: 'content6-content',
-          children: (
-            <span>
-              <p>Using AI to keep people goal orientanted&nbsp;</p>
-            </span>
-          ),
-        },
-      },
-      {
-        name: 'block2',
-        img: {
-          className: 'content6-icon',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
-        },
-        title: {
-          className: 'content6-title',
-          children: (
-            <span>
-              <span>
-                <p>Access to Educators&nbsp;</p>
-              </span>
-            </span>
-          ),
-        },
-        content: {
-          className: 'content6-content',
-          children: (
-            <span>
-              <p>
-                Providing access to educators on-Demand to refine your practice.
-              </p>
-            </span>
-          ),
-        },
-      },
-    ],
-    className: 'ksj3wrt960f-editor_css',
+  textWrapper: { className: 'content2-text', md: 14, xs: 24 },
+  title: {
+    className: 'content2-title',
+    children: (
+      <span>
+        <span>
+          <p>Artifical Inteligence</p>
+        </span>
+      </span>
+    ),
+  },
+  content: {
+    className: 'content2-content',
+    children: (
+      <span>
+        <p>
+          Pwoerful Algorithms and Machine Learning to personalise content and
+          keep users consistent &amp; accountable.
+        </p>
+      </span>
+    ),
   },
 };
 export const Content110DataSource = {
   OverPack: {
-    className: 'home-page-wrapper content11-wrapper',
+    className: 'home-page-wrapper content11-wrapper kslvreg7t-editor_css',
     playScale: 0.3,
   },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: 'title-wrapper kslvuh0wtd-editor_css',
     children: [
-      {
-        name: 'image',
-        children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image',
-      },
       {
         name: 'title',
         children: (
@@ -359,29 +251,51 @@ export const Content110DataSource = {
             <p>Reigster your interest</p>
           </span>
         ),
-        className: 'title-h1',
+        className: 'title-h1 kslvux6bnip-editor_css',
       },
       {
         name: 'content',
         children: (
           <span>
             <span>
-              <p>Call all stenght, mobility, nutrition and wellness coaches</p>
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>
+                            If your a stenght, mobility, nutrition or wellness
+                            coach , we want hear from you.&nbsp;
+                          </p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
             </span>
           </span>
         ),
-        className: 'title-content',
+        className: 'title-content kslvu4nina-editor_css',
       },
       {
         name: 'content2',
         children: (
           <span>
-            <p>
-              Join are team and providing content and support to our memebers
-            </p>
+            <span>
+              <span>
+                <span>
+                  <p>
+                    Join are team and providing content and support to our
+                    memebers<br />
+                  </p>
+                </span>
+              </span>
+            </span>
           </span>
         ),
-        className: 'title-content',
+        className: 'title-content kslwzawz42-editor_css',
       },
     ],
   },
@@ -409,8 +323,10 @@ export const Footer00DataSource = {
     className: 'copyright',
     children: (
       <span>
-        ©2018 <a href="https://motion.ant.design">Ant Motion</a> All Rights
-        Reserved
+        <span>
+          ©2021&nbsp;<a href="https://motion.ant.design">Balan-ce</a>&nbsp;All
+          Rights Reserved
+        </span>
       </span>
     ),
   },
